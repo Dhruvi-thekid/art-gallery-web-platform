@@ -1,0 +1,95 @@
+/* General styles */
+body {
+    font-family: 'Verdana', sans-serif;
+    background: linear-gradient(to bottom, #f2f2f2, #dcdde1);
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Contact container */
+.contact-container {
+    max-width: 400px;
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+/* Form styles */
+form label {
+    display: block;
+    font-size: 1.1em;
+    color: #34495e;
+    margin: 10px 0 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.9em;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+textarea {
+    resize: none;
+}
+
+/* Submit button */
+form button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+form button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+/* Link back to home */
+a {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

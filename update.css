@@ -1,0 +1,79 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #f5f7fa, #c3cfe2);
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    color: #2b2b2b;
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Styling input fields */
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* Styling labels */
+label {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Styling button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2a9d8f;
+    color: white;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #21867a;
+    transform: scale(1.05);
+}
+
+/* Adding artistic flair */
+form {
+    background-image: url('https://via.placeholder.com/400x400'); /* Replace this with an actual artist-related image or pattern */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+input::placeholder {
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+button {
+    background: linear-gradient(to right, #e63946, #f77f00, #2a9d8f);
+}
